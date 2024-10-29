@@ -27,8 +27,12 @@ namespace Tyuiu.ShindinDN.Sprint3.Task4.V7
             int y = 5;
             Console.WriteLine("Точка старта = " + x);
             Console.WriteLine("Точка конца = " +  y);
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
             double res = ds.Calculate(x, y);
-            Console.WriteLine("Перемноженные значения:"+res);
+            Console.WriteLine("Перемноженные значения: "+res);
+            Console.ReadLine();
         }
     }
 }

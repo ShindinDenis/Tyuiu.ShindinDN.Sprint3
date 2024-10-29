@@ -6,15 +6,14 @@ namespace Tyuiu.ShindinDN.Sprint3.Task4.V7.Lib
     {
         public double Calculate(int startValue, int stopValue)
         {
-            double value = 0;
+            double value = 1;
             for (double i = startValue; i <= stopValue; i++)
             {
                 if (i == 0)
                 {
                     break;
                 }
-                i = i * ((i / Math.Cos(i))+1.5);
-                value = i;
+                value *= ((i / Math.Cos(i))+1.5);
             }
             return Math.Round(value, 3);
         }

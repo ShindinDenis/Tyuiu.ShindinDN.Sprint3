@@ -10,7 +10,7 @@ namespace Tyuiu.ShindinDN.Sprint3.Task4.V7.Test
         {
             DataService ds = new DataService();
             double res = ds.Calculate(-5, 5);
-            double wait = 80.633;
+            double wait = 1231.499;
             Assert.AreEqual(res, wait);
         }
     }
