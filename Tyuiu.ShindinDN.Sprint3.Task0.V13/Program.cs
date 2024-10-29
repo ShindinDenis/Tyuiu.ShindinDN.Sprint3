@@ -32,6 +32,7 @@ namespace Tyuiu.ShindinDN.Sprint3.Task0.V13
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("Сумма ряда = " + ds.GetSumSeries(value, startValue, stopValue));
+            Console.ReadKey();
         }
     }
 }
