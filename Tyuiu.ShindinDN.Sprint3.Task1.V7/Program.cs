@@ -10,7 +10,7 @@ namespace Tyuiu.ShindinDN.Sprint3.Task1.V7
             Console.Title = "Спринт #3 | Выполнил: Шиндин Д. Н. | ИСТНб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
-            Console.WriteLine("* Тема: Оператор цикла for                                                *");
+            Console.WriteLine("* Тема: Оператор цикла while                                              *");
             Console.WriteLine("* Задание #1                                                              *");
             Console.WriteLine("* Вариант #7                                                              *");
             Console.WriteLine("* Выполнил: Шиндин Денис Николаевич | ИСТНб-24-1                          *");
