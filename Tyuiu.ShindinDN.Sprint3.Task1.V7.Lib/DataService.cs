@@ -9,7 +9,7 @@ namespace Tyuiu.ShindinDN.Sprint3.Task1.V7.Lib
             double multSeries = 1;
             while (startValue <= stopValue)
             {
-                multSeries = multSeries + (Math.Pow(value, startValue) + 1) * Math.Sin(5);
+                multSeries = multSeries * (Math.Pow(value, startValue) + 1) * Math.Sin(5);
                 startValue++;
             }
             return Math.Round(multSeries, 3);
