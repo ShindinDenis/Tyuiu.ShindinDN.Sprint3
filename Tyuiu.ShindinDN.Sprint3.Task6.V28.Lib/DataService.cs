@@ -9,7 +9,7 @@ namespace Tyuiu.ShindinDN.Sprint3.Task6.V28.Lib
             int num = 0;
             for (int i = startValue;i<= stopValue; i++)
             {
-                for (int j = 1; j <= 7; j++)
+                for (int j = 1; j < 7; j++)
                 {
                     if (i % j == 0)
                     {
